@@ -1,0 +1,3688 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>LessHat reference</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style type="text/css">
+        @font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAYcAA0AAAAACjQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABMAAAABwAAAAca8vGTk9TLzIAAAFMAAAARAAAAFZG1VHVY21hcAAAAZAAAAA+AAABQgAP9AdjdnQgAAAB0AAAAAQAAAAEACICiGdhc3AAAAHUAAAACAAAAAj//wADZ2x5ZgAAAdwAAADRAAABEKyikaNoZWFkAAACsAAAAC0AAAA2AtXoA2hoZWEAAALgAAAAHAAAACQHngNFaG10eAAAAvwAAAAQAAAAEAwAACJsb2NhAAADDAAAAAoAAAAKALIAVG1heHAAAAMYAAAAHwAAACABEAB2bmFtZQAAAzgAAALBAAAFu3I9x/Nwb3N0AAAF/AAAAB0AAAAvaoFvbwAAAAEAAAAAzBdyYwAAAADP2IQvAAAAAM/bz7t4nGNgZGFgnMDAysDB1Ml0hoGBoR9CM75mMGLkYGBgYmBlZsAKAtJcUxgcPsR8iGF2+O/AEMPsznAYKMwIkgMA5REMOXicY2BgYGaAYBkGRgYQsAHyGMF8FgYFIM0ChED+h5j//yEk/3KoSgZGNgYYk4GRCUgwMaACRoZhDwCs7QgGAAAAIgKIAAAAAf//AAJ4nHWMMQrCQBBF/0zWrCCIKUQsTDCL2EXMohYGSSmorScInsRGL2DOYJe0Ntp7BK+gJ1BxF1stZvjz/v8DRghQzEc4kIgKwiAppcA9LtzKLSkdNhKFY3HF4lK69ExKslx7Xa+vPRVS43G98vG1DnkDMIBUgFN0MDXflU8tbaZOUkXUH0+U27RoRpOIyCKjbMCVejwypzJJG4jIwb43rfl6wbwanocrJm9XFYfskuVC5K/TPyczNU7b84CXcbxks1Un6H6tLH9vf2LRnn8Ax7A5WQAAAHicY2BkYGAA4teL1+yI57f5ysDNwgAC529f0kOmWRiYVgEpDgYmEA8AUzEKsQAAAHicY2BkYGB2+O/AEMPCAAJAkpEBFbAAADgKAe0EAAAiAAAAAAQAAAAEAAAAAAAAKgAqACoAiAAAeJxjYGRgYGBhsGFgYgABEMkFhAwM/xn0QAIAD6YBhwB4nI1Ty07cMBS9QwKlQapQW3VXySvEqDCZGbGaHULiIQ1FKgjWMxknMfLEke2A+IJu+wntrt/QbVf9gG75jK577Lg8K1qQPCfnnnt8fX1NRC/pmjrk/zprC+8D7tBy9DHgBXoWfQ44Av8t4Bj4Z8CLtBL9CniJluPXASf0Lm4CXqFX8Q84dOLnMB17N4c7tBo1AS/Qi+hTwBH4rwHHwN8DXqQ30XXAS7QaLwSc0Gn8NuAVWou/gFmnjLrEaEh9GmDdDGgL3B4JsrRPDU2hTOiMSuJUIdKQQayiAth69r6akSSFqIJuA19TrzCIaY8sIoxyrNIrL//pw7A2iMygkX5vDj+G+kuoLdX4GlGK/8Lnlz6/h9MpmoO9rafrz7ILXEHHaAx95s9lsI7AHNMBWEZHULnfAXwG9/ZqdzLI08iuwRloXE8kfhXYAvE23+23DU3t626rbs8/8adv+9DWknsHp3E17oCf+Z48rvEQNZ78paYM38qfk3v/u3l3u3GXN2Dmvmvpf1Srwk3pB/VSsp512bA/GG5i2WJ7wu430yQ5K3nFGiOqgtmSB5pJVSizwaacmUZzZhXLlZTq8qGGFY2YcSkqbth6aW1tRmlaCFs2016m5qn36SbJrqosG4uMV4aP2PHBmB3tjtmgN2izkGQyLWprekbIntJFing32a5rKWCN/SdSoga45EJykyQ7asZvHQ8PTm6cslIpwyeyjbVltNikc2HTR7YKh9LBl9DADC0U/jLcBZDKrMhUBfQBvXRzLtFtjU9eNHKin0x5InTqb8lNpfKv1s1xHzTXRqgKzek/mb7nB8RZTCDhGEX3kK/8Q75AmUM/eLkfA+0Hi908Kx4eNsMgudg5GLdRD7a84npi+YxNr5i5KIbW5izXas7cHXIMAau1OueZhfj+cOcP3P8MNIWLyYOBuxL6DRylJ4cAAAB4nGNgYoAALjDJyIAOWMCiTIxMLDmZedkABtIBygAAAA==) format('woff');
+}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code {
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body .octicon {
+  font: normal normal 16px octicons-anchor;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.markdown-body .octicon-link:before {
+  content: '\f05c';
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .anchor {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  padding-left: 8px;
+  margin-left: -30px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  display: inline-block;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+.markdown-body .pl-c {
+  color: #969896;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-mdh,
+.markdown-body .pl-mm,
+.markdown-body .pl-mp,
+.markdown-body .pl-mr,
+.markdown-body .pl-s1 .pl-v,
+.markdown-body .pl-s3,
+.markdown-body .pl-sc,
+.markdown-body .pl-sv {
+  color: #0086b3;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #795da3;
+}
+
+.markdown-body .pl-s1 .pl-s2,
+.markdown-body .pl-smi,
+.markdown-body .pl-smp,
+.markdown-body .pl-stj,
+.markdown-body .pl-vo,
+.markdown-body .pl-vpf {
+  color: #333;
+}
+
+.markdown-body .pl-ent {
+  color: #63a35c;
+}
+
+.markdown-body .pl-k,
+.markdown-body .pl-s,
+.markdown-body .pl-st {
+  color: #a71d5d;
+}
+
+.markdown-body .pl-pds,
+.markdown-body .pl-s1,
+.markdown-body .pl-s1 .pl-pse .pl-s2,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre,
+.markdown-body .pl-src,
+.markdown-body .pl-v {
+  color: #df5000;
+}
+
+.markdown-body .pl-id {
+  color: #b52a1d;
+}
+
+.markdown-body .pl-ii {
+  background-color: #b52a1d;
+  color: #f8f8f8;
+}
+
+.markdown-body .pl-sr .pl-cce {
+  color: #63a35c;
+  font-weight: bold;
+}
+
+.markdown-body .pl-ml {
+  color: #693a17;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  color: #1d3e81;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mq {
+  color: #008080;
+}
+
+.markdown-body .pl-mi {
+  color: #333;
+  font-style: italic;
+}
+
+.markdown-body .pl-mb {
+  color: #333;
+  font-weight: bold;
+}
+
+.markdown-body .pl-md,
+.markdown-body .pl-mdhf {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.markdown-body .pl-mdht,
+.markdown-body .pl-mi1 {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.markdown-body .pl-mdr {
+  color: #795da3;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mo {
+  color: #1d3e81;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #000;
+  border: 1px solid #cfcfcf;
+  border-radius: 2px;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  float: left;
+  margin: 0.3em 0 0.25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body :checked+.radio-label {
+  z-index: 1;
+  position: relative;
+  border-color: #4183c4;
+}
+
+        </style>
+
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </head>
+    <body>
+    <div  class="markdown-body">
+    <h2><a name="documentation"></a> Documentation:</h2>
+
+<h3>List of mixins:</h3>
+
+<ol>
+<li><strong><a href="#align-content">align-content</a></strong> <code>flexbox</code></li>
+<li><strong><a href="#align-items">align-items</a></strong> <code>flexbox</code></li>
+<li><strong><a href="#align-self">align-self</a></strong> <code>flexbox</code></li>
+<li><strong><a href="#animation">animation</a></strong></li>
+<li><strong><a href="#animation-delay">animation-delay</a></strong></li>
+<li><strong><a href="#animation-direction">animation-direction</a></strong></li>
+<li><strong><a href="#animation-duration">animation-duration</a></strong></li>
+<li><strong><a href="#animation-fill-mode">animation-fill-mode</a></strong></li>
+<li><strong><a href="#animation-iteration-count">animation-iteration-count</a></strong></li>
+<li><strong><a href="#animation-name">animation-name</a></strong></li>
+<li><strong><a href="#animation-play-state">animation-play-state</a></strong></li>
+<li><strong><a href="#animation-timing-function">animation-timing-function</a></strong></li>
+<li><strong><a href="#appearance">appearance</a></strong></li>
+<li><strong><a href="#backface-visibility">backface-visibility</a></strong></li>
+<li><strong><a href="#background-clip">background-clip</a></strong></li>
+<li><strong><a href="#background-image">background-image</a></strong></li>
+<li><strong><a href="#background-origin">background-origin</a></strong></li>
+<li><strong><a href="#background-size">background-size</a></strong></li>
+<li><strong><a href="#blur">blur</a></strong> <code>filter</code></li>
+<li><strong><a href="#border-bottom-left-radius">border-bottom-left-radius</a></strong></li>
+<li><strong><a href="#border-bottom-right-radius">border-bottom-right-radius</a></strong></li>
+<li><strong><a href="#border-image">border-image</a></strong></li>
+<li><strong><a href="#border-radius">border-radius</a></strong></li>
+<li><strong><a href="#border-top-left-radius">border-top-left-radius</a></strong></li>
+<li><strong><a href="#border-top-right-radius">border-top-right-radius</a></strong></li>
+<li><strong><a href="#box-shadow">box-shadow</a></strong></li>
+<li><strong><a href="#box-sizing">box-sizing</a></strong></li>
+<li><strong><a href="#brightness">brightness</a></strong> <code>filter</code></li>
+<li><strong><a href="#calc">calc</a></strong></li>
+<li><strong><a href="#column-count">column-count</a></strong></li>
+<li><strong><a href="#column-gap">column-gap</a></strong></li>
+<li><strong><a href="#column-rule">column-rule</a></strong></li>
+<li><strong><a href="#column-width">column-width</a></strong></li>
+<li><strong><a href="#columns">columns</a></strong></li>
+<li><strong><a href="#contrast">contrast</a></strong> <code>filter</code></li>
+<li><strong><a href="#display">display</a></strong> <code>flexbox</code></li>
+<li><strong><a href="#drop-shadow">drop-shadow</a></strong> <code>filter</code></li>
+<li><strong><a href="#filter">filter</a></strong></li>
+<li><strong><a href="#flex">flex</a></strong> <code>flexbox</code></li>
+<li><strong><a href="#flex-basis">flex-basis</a></strong> <code>flexbox</code></li>
+<li><strong><a href="#flex-direction">flex-direction</a></strong> <code>flexbox</code></li>
+<li><strong><a href="#flex-grow">flex-grow</a></strong> <code>flexbox</code></li>
+<li><strong><a href="#flex-shrink">flex-shrink</a></strong> <code>flexbox</code></li>
+<li><strong><a href="#flex-wrap">flex-wrap</a></strong> <code>flexbox</code></li>
+<li><strong><a href="#font-face">font-face</a></strong></li>
+<li><strong><a href="#grayscale">grayscale</a></strong> <code>filter</code></li>
+<li><strong><a href="#hue-rotate">hue-rotate</a></strong> <code>filter</code></li>
+<li><strong><a href="#hyphens">hyphens</a></strong></li>
+<li><strong><a href="#invert">invert</a></strong> <code>filter</code></li>
+<li><strong><a href="#justify-content">justify-content</a></strong> <code>flexbox</code></li>
+<li><strong><a href="#keyframes">keyframes</a></strong></li>
+<li><strong><a href="#opacity">opacity</a></strong></li>
+<li><strong><a href="#order">order</a></strong></li>
+<li><strong><a href="#perspective">perspective</a></strong></li>
+<li><strong><a href="#perspective-origin">perspective-origin</a></strong></li>
+<li><strong><a href="#placeholder">placeholder</a></strong></li>
+<li><strong><a href="#rotate">rotate</a></strong> <code>transform</code></li>
+<li><strong><a href="#rotate3d">rotate3d</a></strong> <code>transform</code></li>
+<li><strong><a href="#rotateX">rotateX</a></strong> <code>transform</code></li>
+<li><strong><a href="#rotateY">rotateY</a></strong> <code>transform</code></li>
+<li><strong><a href="#rotateZ">rotateZ</a></strong> <code>transform</code></li>
+<li><strong><a href="#saturate">saturate</a></strong> <code>filter</code></li>
+<li><strong><a href="#scale">scale</a></strong> <code>transform</code></li>
+<li><strong><a href="#scale3d">scale3d</a></strong> <code>transform</code></li>
+<li><strong><a href="#scaleX">scaleX</a></strong> <code>transform</code></li>
+<li><strong><a href="#scaleY">scaleY</a></strong> <code>transform</code></li>
+<li><strong><a href="#scaleZ">scaleZ</a></strong> <code>transform</code></li>
+<li><strong><a href="#selection">selection</a></strong></li>
+<li><strong><a href="#sepia">sepia</a></strong> <code>filter</code></li>
+<li><strong><a href="#size">size</a></strong> <code>width, height</code></li>
+<li><strong><a href="#skew">skew</a></strong> <code>transform</code></li>
+<li><strong><a href="#skewX">skewX</a></strong> <code>transform</code></li>
+<li><strong><a href="#skewY">skewY</a></strong> <code>transform</code></li>
+<li><strong><a href="#transform">transform</a></strong></li>
+<li><strong><a href="#transform-origin">transform-origin</a></strong></li>
+<li><strong><a href="#transform-style">transform-style</a></strong></li>
+<li><strong><a href="#transition">transition</a></strong></li>
+<li><strong><a href="#transition-delay">transition-delay</a></strong></li>
+<li><strong><a href="#transition-duration">transition-duration</a></strong></li>
+<li><strong><a href="#transition-property">transition-property</a></strong></li>
+<li><strong><a href="#transition-timing-function">transition-timing-function</a></strong></li>
+<li><strong><a href="#translate">translate</a></strong> <code>transform</code></li>
+<li><strong><a href="#translate3d">translate3d</a></strong> <code>transform</code></li>
+<li><strong><a href="#translateX">translateX</a></strong> <code>transform</code></li>
+<li><strong><a href="#translateY">translateY</a></strong> <code>transform</code></li>
+<li><strong><a href="#translateZ">translateZ</a></strong> <code>transform</code></li>
+<li><strong><a href="#user-select">user-select</a></strong></li>
+</ol>
+
+<hr />
+
+<h3><a name="align-content"></a> &#8226; align-content</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The CSS align-content property aligns a flex container's lines within the flex container when there is an extra space on the cross-axis. This property has no effect on the single line flexible boxes.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-content">MDN</a></strong>, <strong><a href="http://css-tricks.com/almanac/properties/a/align-content/">CSS-Tricks</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: stretch</p>
+
+<pre><code>.align-content(flex-start | flex-end | center | space-between | space-around | stretch)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .align-content(flex-start);
+}
+
+// Result
+div {
+ -webkit-align-content: flex-start;
+ -ms-flex-line-pack: start;
+ align-content: flex-start;
+} 
+</code></pre>
+
+<h3><a name="align-items"></a> &#8226; align-items</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The CSS align-items property aligns flex items of the current flex line the same way as justify-content but in the perpendicular direction.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-items">MDN</a></strong>, <strong><a href="http://css-tricks.com/almanac/properties/a/align-items/">CSS-Tricks</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: stretch</p>
+
+<pre><code>.align-items(flex-start | flex-end | center | baseline | stretch)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .align-items(flex-start);
+}
+
+// Result
+div {
+ -webkit-box-align: flex-start;
+ -moz-box-align: start;
+ -webkit-align-items: start;
+ -ms-flex-align: flex-start;
+ align-items: flex-start;
+}
+</code></pre>
+
+<h3><a name="align-self"></a> &#8226; align-self</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The align-self CSS property aligns flex items of the current flex line overriding the align-items value. If any of the flex item's cross-axis margin is set to auto, then align-self is ignored.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-self">MDN</a></strong>, <strong><a href="http://css-tricks.com/almanac/properties/a/align-self/">CSS-Tricks</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: auto</p>
+
+<pre><code>.align-self(auto | flex-start | flex-end | center | baseline | stretch)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .align-self(flex-start);
+}
+
+// Result
+div {
+ -webkit-align-self: flex-start;
+ -ms-flex-item-align: start;
+ align-self: flex-start;
+}
+</code></pre>
+
+<h3><a name="animation"></a> &#8226; animation</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Shorthand to define a CSS animation, setting all parameters at once.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/animation/animation">WebPlatform</a></strong>, <strong><a href="http://www.css3files.com/animation/">CSS3files</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: none</p>
+
+<pre><code>.animation(animation-name | animation-duration | animation-timing-function | animation-delay | animation-iteration-count | animation-direction | animation-fill-mode , […]*)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .animation(nameAnimation 2s linear alternate);
+}
+
+// Result
+div {
+ -webkit-animation: nameAnimation 2s linear alternate;
+ -moz-animation: nameAnimation 2s linear alternate;
+ -o-animation: nameAnimation 2s linear alternate;
+ animation: nameAnimation 2s linear alternate;
+}
+</code></pre>
+
+<h3><a name="animation-delay"></a> &#8226; animation-delay</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Defines a length of time to elapse before an animation starts, allowing an animation to begin execution some time after it is applied.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/animation-delay">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.animation-delay(&lt;time&gt;, …)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units after time argument, <code>animation-delay</code> is trying to be smart and add properly value.</p>
+
+<pre><code>if (time &gt; 10) {
+    time += 'ms';
+  } else {
+    time += 's';
+  }
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .animation-delay(2, 200);
+}
+
+// Result
+div {
+ -webkit-animation-delay: 2s, 200ms;
+ -moz-animation-delay: 2s, 200ms;
+ -o-animation-delay: 2s, 200ms;
+ animation-delay: 2s, 200ms;
+}
+</code></pre>
+
+<h3><a name="animation-direction"></a> &#8226; animation-direction</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The animation-direction CSS property indicates whether the animation should play in reverse on alternate cycles.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/animation-direction">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: normal</p>
+
+<pre><code>.animation-direction(&lt;single-animation-direction&gt;, …)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .animation-direction(reverse, alternate);
+}
+
+// Result
+div {
+ -webkit-animation-direction: reverse, alternate;
+ -moz-animation-direction: reverse, alternate;
+ -o-animation-direction: reverse, alternate;
+ animation-direction: reverse, alternate;
+}
+</code></pre>
+
+<h3><a name="animation-duration"></a> &#8226; animation-duration</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The animation-duration CSS property specifies the length of time that an animation should take to complete one cycle.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/animation-duration">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.animation-duration(&lt;time&gt;, …)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units after time argument, <code>animation-duration</code> is trying to be smart and add proper value.</p>
+
+<pre><code>if (time &gt; 10) {
+    time += 'ms';
+  } else {
+    time += 's';
+  }
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .animation-duration(2000);
+}
+
+// Result
+div {
+ -webkit-animation-duration: 2000ms;
+ -moz-animation-duration: 2000ms;
+ -o-animation-duration: 2000ms;
+ animation-duration: 2000ms;
+}
+</code></pre>
+
+<h3><a name="animation-fill-mode"></a> &#8226; animation-fill-mode</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The animation-fill-mode CSS property specifies how a CSS animation should apply styles to its target before and after it is executing.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/animation-fill-mode">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: none</p>
+
+<pre><code>.animation-fill-mode(&lt;single-animation-fill-mode&gt;, …)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .animation-fill-mode(forwards);
+}
+
+// Result
+div {
+ -webkit-animation-fill-mode: forwards;
+ -moz-animation-fill-mode: forwards;
+ -o-animation-fill-mode: forwards;
+ animation-fill-mode: forwards;
+}
+</code></pre>
+
+<h3><a name="animation-iteration-count"></a> &#8226; animation-iteration-count</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The animation-iteration-count CSS property specifies how a CSS animation should apply styles to its target before and after it is executing.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/animation-iteration-count">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 1</p>
+
+<pre><code>.animation-iteration-count(&lt;single-animation-iteration-count&gt;, …)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .animation-iteration-count(3);
+}
+
+// Result
+div {
+ -webkit-animation-iteration-count: 3;
+ -moz-animation-iteration-count: 3;
+ -o-animation-iteration-count: 3;
+ animation-iteration-count: 3;
+} 
+</code></pre>
+
+<h3><a name="animation-name"></a> &#8226; animation-name</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The animation-name CSS property specifies a list of animations that should be applied to the selected element. Each name indicates a @keyframes at-rule that defines the property values for the animation sequence.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/animation-name">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: none</p>
+
+<pre><code>.animation-name(&lt;single-animation-name&gt;, …)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .animation-name(animation-1, animation-2);
+}
+
+// Result
+div {
+ -webkit-animation-name: animation-1, animation-2;
+ -moz-animation-name: animation-1, animation-2;
+ -o-animation-name: animation-1, animation-2;
+ animation-name: animation-1, animation-2;
+} 
+</code></pre>
+
+<h3><a name="animation-play-state"></a> &#8226; animation-play-state</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The animation-play-state CSS property determines whether an animation is running or paused. You can query this property's value to determine whether or not the animation is currently running; in addition, you can set its value to pause and resume playback of an animation.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/animation-play-state">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: running</p>
+
+<pre><code>.animation-play-state(&lt;single-animation-play-state&gt;, …)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .animation-play-state(paused);
+}
+
+// Result
+div {
+ -webkit-animation-play-state: paused;
+ -moz-animation-play-state: paused;
+ -o-animation-play-state: paused;
+ animation-play-state: paused;
+} 
+</code></pre>
+
+<h3><a name="animation-timing-function"></a> &#8226; animation-timing-function</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The animation-timing-function CSS property determines whether an animation is running or paused. You can query this property's value to determine whether or not the animation is currently running; in addition, you can set its value to pause and resume playback of an animation.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/animation-timing-function">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: ease</p>
+
+<pre><code>.animation-timing-function(&lt;single-animation-timing-function&gt;, …)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .animation-timing-function(cubic-bezier(0.1, 0.7, 1.0, 0.1));
+}
+
+// Result
+div {
+ -webkit-animation-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+ -moz-animation-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+ -o-animation-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+ animation-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+} 
+</code></pre>
+
+<h3><a name="appearance"></a> &#8226; appearance</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Allows changing the style of any element to platform-based interface elements or vice versa.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/appearance">WebPlatform</a></strong>, <strong><a href="http://css-tricks.com/almanac/properties/a/appearance/">CSS-Tricks</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: none</p>
+
+<pre><code>.appearance(&lt;appearance&gt;)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .appearance();
+}
+
+// Result
+div {
+ -webkit-appearance: none;
+ -moz-appearance: none;
+ appearance: none;
+} 
+</code></pre>
+
+<h3><a name="backface-visibility"></a> &#8226; backface-visibility</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The CSS backface-visibility property determines whether or not the back face of the element is visible when facing the user. The back face of an element always is a transparent background, letting, when visible, a mirror image of the front face be displayed.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/backface-visibility">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: none</p>
+
+<pre><code>.backface-visibility(visible | hidden )
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .backface-visibility(hidden);
+}
+
+// Result
+div {
+ -webkit-backface-visibility: none;
+ -moz-backface-visibility: none;
+ -ms-backface-visibility: none;
+ -o-backface-visibility: none;
+ backface-visibility: none;
+} 
+</code></pre>
+
+<h3><a name="background-clip"></a> &#8226; background-clip</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The background-clip CSS property specifies whether an element's background, either the color or image, extends underneath its border.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/background-clip">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: border-box</p>
+
+<pre><code>.background-clip(&lt;box&gt;)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .background-clip(padding-box);
+}
+
+// Result
+div {
+ -webkit-background-clip: padding-box;
+ -moz-background-clip: padding-box;
+ background-clip: padding-box;
+} 
+</code></pre>
+
+<h3><a name="background-image"></a> &#8226; background-image</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>With the background-image you can create prefixed linear or radial gradients. The CSS (linear|radial)-gradient() function creates an <code>&lt;image&gt;</code> which represents a linear|radial gradient of colors. The result of this function is an object of the CSS <code>&lt;gradient&gt;</code> data type. Like any other gradient, a CSS linear gradient is not a CSS <code>&lt;color&gt;</code> but an image with no intrinsic dimensions; that is, it has neither natural or preferred size, nor ratio. Its concrete size will match the one of the element it applies to.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/functions/linear-gradient">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: none</p>
+
+<pre><code>.background-image(&lt;gradient&gt;, ...)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>The <code>background-image</code> mixin is the most robust mixin of all.<br />
+It generates <code>SVG</code> for Internet Explorer 9, old webkit, moz and opera syntax.<br />
+Always use W3C syntax for the mixin. It can recalculate angle for older syntax, transform <code>to top</code> to <code>bottom</code> syntax and it can omit SVG syntax if it's impossible to express SVG e.g. when you call mixin with 55deg.<br />
+If you call mixin without arguments, LESS Hat does not generate anything.<br />
+Great online gradient <a href="http://www.colorzilla.com/gradient-editor/">generator</a>.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .background-image(linear-gradient(to bottom, #fb83fa 0%,#e93cec 100%));
+}
+
+// Result
+div {
+ background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9Imxlc3NoYXQtZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmYjgzZmEiIHN0b3Atb3BhY2l0eT0iMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2U5M2NlYyIgc3RvcC1vcGFjaXR5PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2xlc3NoYXQtZ2VuZXJhdGVkKSIgLz48L3N2Zz4=);
+ background-image: -webkit-linear-gradient(top, #fb83fa 0%, #e93cec 100%);
+ background-image: -moz-linear-gradient(top, #fb83fa 0%, #e93cec 100%);
+ background-image: -o-linear-gradient(top, #fb83fa 0%, #e93cec 100%);
+ background-image: linear-gradient(to bottom, #fb83fa 0%, #e93cec 100%);
+}
+</code></pre>
+
+<h3><a name="background-origin"></a> &#8226; background-origin</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The background-origin CSS property determines the background positioning area, that is the position of the origin of an image specified using the background-image CSS property.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/background-origin">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-origin">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: padding-box</p>
+
+<pre><code>.background-origin(&lt;box&gt;)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>  div {
+   .background-origin(content-box);
+  }
+
+  // Result
+  div {
+   -webkit-background-origin: content-box;
+   -moz-background-origin: content-box;
+   background-origin: content-box;
+  } 
+</code></pre>
+
+<h3><a name="background-size"></a> &#8226; background-size</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The background-size CSS property specifies the size of the background images. The size of the image can be fully constrained or only partially in order to preserve its intrinsic ratio.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/background-size">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-size">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: auto auto</p>
+
+<pre><code>.background-size(&lt;bg-size&gt;, ...)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>background-size</code> adds <code>px</code> automatically. </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .background-size(cover, 100%);
+}
+
+// Result
+div {
+ -webkit-background-size: cover, 100%;
+ -moz-background-size: cover, 100%;
+ background-size: cover, 100%;
+} 
+</code></pre>
+
+<h3><a name="blur"></a> &#8226; blur (shorthand for filter property)</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Applies a Gaussian blur to the input image. The value of ‘radius’ defines the value of the standard deviation to the Gaussian function, or how many pixels on the screen blend into each other, so a larger value will create more blur. If no parameter is provided, then a value 0 is used. The parameter is specified as a CSS length, but does not accept percentage values.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter#blur()">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.blur(length)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>blur</code> adds <code>px</code> automatically. </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .blur(5px);
+}
+
+// Result
+div {
+ -webkit-filter: blur(5px);
+ -moz-filter: blur(5px);
+ -ms-filter: blur(5px);
+ filter: blur(5px);
+} 
+</code></pre>
+
+<h3><a name="border-bottom-left-radius"></a> &#8226; border-bottom-left-radius</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The border-bottom-left-radius CSS property sets the rounding of the bottom-left corner of the element. The rounding can be a circle or an ellipse, or if one of the value is 0 no rounding is done and the corner is square.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/border-radius">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom-left-radius">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.border-bottom-left-radius(length | percentage)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>border-bottom-left-radius</code> adds <code>px</code> automatically. 
+If you want to use syntax like <code>10px \ 5px</code>, you have to interpolate argument <code>~''</code> or LESS CSS divides it (yeah awesome feature!).
+Also LESS Hat adds <code>background-clip: padding-box</code>, because it fixes problem with older Safari. Here is some <a href="http://tumble.sneak.co.nz/post/928998513/fixing-the-background-bleed">resource</a>.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .border-bottom-left-radius(10px);
+}
+
+// Result
+div {
+ -webkit-border-bottom-left-radius: 10px;
+ -moz-border-radius-bottomleft: 10px;
+ border-bottom-left-radius: 10px;
+}   
+</code></pre>
+
+<h3><a name="border-bottom-right-radius"></a> &#8226; border-bottom-right-radius</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The border-bottom-right-radius CSS property sets the rounding of the bottom-right corner of the element. The rounding can be a circle or an ellipse, or if one of the value is 0 no rounding is done and the corner is square.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/border-radius">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom-right-radius">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.border-bottom-right-radius(length | percentage)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>border-bottom-right-radius</code> adds <code>px</code> automatically. 
+If you want to use syntax like <code>10px \ 5px</code>, you have to interpolate argument <code>~''</code> or LESS CSS divides it (yeah awesome feature!).
+Also LESS Hat adds <code>background-clip: padding-box</code>, because it fixes problem with older Safari. Here is some <a href="http://tumble.sneak.co.nz/post/928998513/fixing-the-background-bleed">resource</a>.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>  div {
+   .border-bottom-right-radius(10px);
+  }
+
+  // Result
+  div {
+   -webkit-border-bottom-right-radius: 10px;
+   -moz-border-radius-bottomright: 10px;
+   border-bottom-right-radius: 10px;
+  }   
+</code></pre>
+
+<h3><a name="border-image"></a> &#8226; border-image</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The border-image CSS property allows drawing an image on the borders of elements. This makes drawing complex looking widgets much simpler than it has been and removes the need for nine boxes in some cases.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/border-radius">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-image">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: based on individual properties</p>
+
+<pre><code>.border-image(border-image-source border-image-slice border-image-width border-image-outset border-image-repeat)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you call mixin without arguments, LESS Hat does not generate anything.
+  Good border-image online <a href="http://border-image.com/">generator</a>.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .border-image(url(border.png) 61 45 62 54 repeat);
+}
+
+// Result
+div {
+ -webkit-border-image: url(border.png) 61 45 62 54 repeat;
+ -moz-border-image: url(border.png) 61 45 62 54 repeat;
+ -o-border-image: url(border.png) 61 45 62 54 repeat;
+ border-image: url(border.png) 61 45 62 54 repeat;
+} 
+</code></pre>
+
+<h3><a name="border-radius"></a> &#8226; border-radius</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The border-radius CSS property allows Web authors to define how rounded border corners are. The curve of each corner is defined using one or two radii, defining its shape: circle or ellipse.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/border-radius">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.border-radius(length | percentage | length / length | percentage / percentage)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>border-radius</code> adds <code>px</code> automatically. 
+  If you want to use syntax like <code>10px \ 5px</code>, you have to interpolate argument <code>~''</code> or LESS CSS divides it (yeah awesome feature!).
+  Also LESS Hat adds <code>background-clip: padding-box</code>, because it fixes problem with older Safari. Here is some <a href="http://tumble.sneak.co.nz/post/928998513/fixing-the-background-bleed">resource</a>.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .border-radius(5px);
+}
+
+// Result
+div {
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border-radius: 5px;
+} 
+</code></pre>
+
+<h3><a name="border-top-left-radius"></a> &#8226; border-top-left-radius</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The border-top-left-radius CSS property sets the rounding of the top-left corner of the element. The rounding can be a circle or an ellipse, or if one of the value is 0 no rounding is done and the corner is square.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/border-top-left-radius">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-left-radius">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.border-top-left-radius(length | percentage)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>border-top-left-radius</code> adds <code>px</code> automatically. 
+  If you want to use syntax like <code>10px \ 5px</code>, you have to interpolate argument <code>~''</code> or LESS CSS divides it (yeah awesome feature!).
+  Also LESS Hat adds <code>background-clip: padding-box</code>, because it fixes problem with older Safari. Here is some <a href="http://tumble.sneak.co.nz/post/928998513/fixing-the-background-bleed">resource</a>.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .border-top-left-radius(5px);
+}
+
+// Result
+div {
+ -webkit-border-top-left-radius: 5px;
+ -moz-border-top-left-radius: 5px;
+ border-top-left-radius: 5px;
+} 
+</code></pre>
+
+<h3><a name="border-top-right-radius"></a> &#8226; border-top-right-radius</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The border-top-right-radius CSS property sets the rounding of the top-right corner of the element. The rounding can be a circle or an ellipse, or if one of the value is 0 no rounding is done and the corner is square.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/border-top-right-radius">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-right-radius">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.border-top-right-radius(length | percentage)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>border-top-right-radius</code> adds <code>px</code> automatically. 
+  If you want to use syntax like <code>10px \ 5px</code>, you have to interpolate argument <code>~''</code> or LESS CSS divides it (yeah awesome feature!).
+  Also LESS Hat adds <code>background-clip: padding-box</code>, because it fixes problem with older Safari. Here is some <a href="http://tumble.sneak.co.nz/post/928998513/fixing-the-background-bleed">resource</a>.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .border-top-right-radius(5px);
+}
+
+// Result
+div {
+ -webkit-border-top-right-radius: 5px;
+ -moz-border-top-right-radius: 5px;
+ border-top-right-radius: 5px;
+} 
+</code></pre>
+
+<h3><a name="box-shadow"></a> &#8226; box-shadow</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The box-shadow CSS property describes one or more shadow effects as a comma-separated list. It allows casting a drop shadow from the frame of almost any element. If a border-radius is specified on the element with a box shadow, the box shadow takes on the same rounded corners. The z-ordering of multiple box shadows is the same as multiple text shadows (the first specified shadow is on top).</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/box-shadow">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: none</p>
+
+<pre><code>.box-shadow(&lt;offset-x&gt; &lt;offset-y&gt; spread blur-radius color inset, …)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>box-shadow</code> adds <code>px</code> automatically. </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .box-shadow(0 1px 10px rgba(20,20,20,0.5));
+}
+
+// Result
+div {
+ -webkit-box-shadow: 0 1px 10px rgba(20,20,20,0.5);
+ -moz-box-shadow: 0 1px 10px rgba(20,20,20,0.5);
+ box-shadow: 0 1px 10px rgba(20,20,20,0.5);
+} 
+</code></pre>
+
+<h3><a name="box-sizing"></a> &#8226; box-sizing</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The box-sizing CSS property is used to alter the default CSS box model used to calculate widths and heights of elements. It is possible to use this property to emulate the behavior of browsers that do not correctly support the CSS box model specification.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/box-sizing">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: content-box</p>
+
+<pre><code>.box-sizing(content-box | padding-box | border-box)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .box-sizing(padding-box);
+}
+
+// Result
+div {
+ -webkit-box-sizing: padding-box;
+ -moz-box-sizing: padding-box;
+ box-sizing: padding-box;
+}
+</code></pre>
+
+<h3><a name="brightness"></a> &#8226; brightness (shorthand for filter property)</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Applies a linear multiplier to input image, making it appear more or less bright. A value of 0% will create an image that is completely black. A value of 100% leaves the input unchanged. Other values are linear multipliers on the effect. Values of an amount over 100% are allowed, providing brighter results. If the ‘amount’ parameter is missing, a value of 100% is used.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter#brightness()">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.brightness(amount)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .brightness(0.5);
+}
+
+// Result
+div {
+ -webkit-filter: brightness(0.5);
+ -moz-filter: brightness(0.5);
+ -ms-filter: brightness(0.5);
+ filter: brightness(0.5);
+} 
+</code></pre>
+
+<h3><a name="calc"></a> &#8226; calc</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The calc() CSS function can be used anywhere a <code>&lt;length&gt;</code>, <code>&lt;frequency&gt;</code>, <code>&lt;angle&gt;</code>, <code>&lt;time&gt;</code>, <code>&lt;number&gt;</code>, or <code>&lt;integer&gt;</code> is required.With calc(), you can perform calculations to determine CSS property values.  </p>
+
+<p><strong>THIS MIXIN MUST BE INTERPOLATED ~''</strong><br />
+The <code>-lh-property: 0</code> junk line of code is a neccesary sacrifice due to the hack nature of this set of mixins. (via <a href="https://github.com/borodean/less-properties">less-properties</a>)</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/calc">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<pre><code>.calc(&lt;element&gt;, ~'&lt;expression&gt;')
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .calc(width, ~'100% - 33px');
+}
+
+// Result
+div {
+ -lh-property: 0;
+ width:-webkit-calc(100% - 33px);
+ width:-moz-calc(100% - 33px);
+ width:calc(100% - 33px);
+} 
+</code></pre>
+
+<h3><a name="column-count"></a> &#8226; column-count</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The column-count CSS property describes the number of columns of the element.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/column-count">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/column-count">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: auto</p>
+
+<pre><code>.column-count(&lt;number&gt; | auto)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .column-count(3);
+}
+
+// Result
+div {
+ -webkit-column-count: 0.5;
+ -moz-column-count: 0.5;
+ column-count: 0.5;
+}   
+</code></pre>
+
+<h3><a name="column-gap"></a> &#8226; column-gap</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The column-gap CSS property sets the size of the gap between columns for elements which are specified to display as a multi-column element.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/column-gap">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: normal</p>
+
+<pre><code>.column-gap(&lt;length&gt; | normal)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>column-gap</code> adds <code>px</code> automatically. </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .column-gap(30);
+}
+
+// Result
+div {
+ -webkit-column-gap: 30px;
+ -moz-column-gap: 30px;
+ column-gap: 30px;
+}   
+</code></pre>
+
+<h3><a name="column-rule"></a> &#8226; column-rule</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>In multi-column layouts, the column-rule CSS property specifies a straight line, or "rule", to be drawn between each column.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/column-rule">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: medium none black</p>
+
+<pre><code>.column-rule(&lt;column-rule-width&gt; | &lt;column-rule-style&gt; | &lt;column-rule-color&gt;)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>column-rule</code> adds <code>px</code> automatically. </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .column-rule(5 outset #ff00ff);
+}
+
+// Result
+div {
+ -webkit-column-rule: 5px outset #ff00ff;
+ -moz-column-rule: 5px outset #ff00ff;
+ column-rule: 5px outset #ff00ff;
+} 
+</code></pre>
+
+<h3><a name="column-width"></a> &#8226; column-width</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The column-width CSS property suggests an optimal column width. This is not a absolute value but a mere hint. Browser will adjust the width of the column around that suggested value, allowing to achieve scalable designs that fit different screen size.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/column-width">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/column-width">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: auto</p>
+
+<pre><code>.column-width(&lt;length&gt; | auto)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>column-width</code> adds <code>px</code> automatically. </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .column-width(100px);
+}
+
+// Result
+div {
+ -webkit-column-width: 100px;
+ -moz-column-width: 100px;
+ column-width: 100px;
+}  
+</code></pre>
+
+<h3><a name="columns"></a> &#8226; columns</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The columns CSS property is a shorthand property allowing to set both the column-width and the column-count properties at the same time.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/columns">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/columns">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: auto</p>
+
+<pre><code>.columns(&lt;column-width&gt; | &lt;column-count&gt;)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units for column-width argument, <code>columns</code> adds <code>px</code> to it automatically. </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .columns(100 3);
+}
+
+// Result
+div {
+ -webkit-columns: 100px 3;
+ -moz-columns: 100px 3;
+ columns: 100px 3;
+} 
+</code></pre>
+
+<h3><a name="contrast"></a> &#8226; contrast</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Adjusts the contrast of the input. A value of 0% will create an image that is completely black. A value of 100% leaves the input unchanged. Values of amount over 100% are allowed, providing results with less contrast. If the ‘amount’ parameter is missing, a value of 100% is used.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter#contrast()">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 100%</p>
+
+<pre><code>.contrast(&lt;amount&gt;)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>contrast</code> adds <code>%</code> automatically. </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .contrast(200);
+}
+
+// Result
+div {
+ -webkit-filter: contrast(200%);
+ -moz-filter: contrast(200%);
+ -ms-filter: contrast(200%);
+ filter: contrast(200%);
+} 
+</code></pre>
+
+<h3><a name="display"></a> &#8226; display</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The display CSS property specifies the type of rendering box used for an element. This mixin is specifically for flexbox purpose.</p>
+
+<p>Resources: <strong><a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS-Tricks</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<pre><code>.display(&lt;flex&gt; | &lt;inline-flex&gt;)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .display(flex);
+}
+
+// Result
+div {
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+ display: -moz-box;
+} 
+</code></pre>
+
+<h3><a name="drop-shadow"></a> &#8226; drop-shadow</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Applies a drop shadow effect to the input image. A drop shadow is effectively a blurred, offset version of the input image's alpha mask drawn in a particular color, composited below the image.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter#drop-shadow()">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<pre><code>.drop-shadow(&lt;offset-x&gt; &lt;offset-y&gt; [&lt;blur-radius&gt; | &lt;spread-radius&gt; | &lt;color&gt;])
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>drop-shadow</code> adds <code>px</code> automatically. </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .drop-shadow(16 16 10 black);
+}
+
+// Result
+div {
+ -webkit-filter: drop-shadow(16px 16px 10px #000000);
+ -moz-filter: drop-shadow(16px 16px 10px #000000);
+ -ms-filter: drop-shadow(16px 16px 10px #000000);
+ filter: drop-shadow(16px 16px 10px #000000);
+} 
+</code></pre>
+
+<h3><a name="filter"></a> &#8226; filter</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The CSS filter property provides for effects like blurring or color shifting on an element’s rendering before the element is displayed. Filters are commonly used to adjust the rendering of an image, a background, or a border.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: none</p>
+
+<pre><code>.filter(&lt;filter-function&gt;*)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .filter(grayscale(0.5) blur(10px));
+}
+
+// Result
+div {
+ -webkit-filter: grayscale(0.5) blur(10px);
+ -moz-filter: grayscale(0.5) blur(10px);
+ -ms-filter: grayscale(0.5) blur(10px);
+ filter: grayscale(0.5) blur(10px);
+}
+</code></pre>
+
+<h3><a name="flex"></a> &#8226; flex</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The flex CSS property specifies ability of a flex item to alter their dimensions to fill the available space. Flex items can be stretched to use available space proportional to their flex grow factor or their flex shrink factor to prevent overflow.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex">MDN</a></strong>, <strong><a href="http://css-tricks.com/almanac/properties/f/flex/">CSS-Tricks</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0 1 auto</p>
+
+<pre><code>.flex(none | [ &lt;flex-grow&gt; &lt;flex-shrink&gt; | &lt;flex-basis&gt; ])
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .flex(1 3 100px);
+}
+
+// Result
+div {
+ -webkit-box-flex: 1;
+ -moz-box-flex: 1;
+ -webkit-flex: 1 3 100px;
+ -ms-flex: 1 3 100px;
+ flex: 1 3 100px;
+}
+</code></pre>
+
+<h3><a name="flex-basis"></a> &#8226; flex-basis</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The CSS flex-basis property specifies the flex basis which is the initial main size of a flex item.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis">MDN</a></strong>, <strong><a href="http://css-tricks.com/almanac/properties/f/flex-basis/">CSS-Tricks</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: auto</p>
+
+<pre><code>.flex-basis(&lt;width&gt;)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>flex-basis</code> adds <code>px</code> automatically. </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .flex-basis(100);
+}
+
+// Result
+div {
+ -webkit-flex-basis: 100;
+ flex-basis: 100px;
+}
+</code></pre>
+
+<h3><a name="flex-direction"></a> &#8226; flex-direction</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The CSS flex-direction property specifies how flex items are placed in the flex container defining the main axis and the direction (normal or reversed).</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction">MDN</a></strong>, <strong><a href="http://css-tricks.com/almanac/properties/f/flex-direction/">CSS-Tricks</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: row</p>
+
+<pre><code>.flex-direction(row | row-reverse | column | column-reverse) 
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .flex-direction(row);
+}
+
+// Result
+div {
+ -webkit-box-direction: normal;
+ -moz-box-direction: normal;
+ -webkit-box-orient: horizontal;
+ -moz-box-orient: horizontal;
+ -webkit-flex-direction: row;
+ -ms-flex-direction: row;
+ flex-direction: row;
+}
+</code></pre>
+
+<h3><a name="flex-grow"></a> &#8226; flex-grow</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The CSS flex-grow property specifies the flex grow factor of a flex item.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow">MDN</a></strong>, <strong><a href="http://css-tricks.com/almanac/properties/f/flex-grow/">CSS-Tricks</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.flex-grow(&lt;number&gt;) 
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .flex-grow(2);
+}
+
+// Result
+div {
+ -webkit-flex-grow: 2;
+ flex-grow: 2;
+}
+</code></pre>
+
+<h3><a name="flex-shrink"></a> &#8226; flex-shrink</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The CSS flex-shrink property specifies the flex shrink factor of a flex item.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink">MDN</a></strong>, <strong><a href="http://css-tricks.com/almanac/properties/f/flex-shrink/">CSS-Tricks</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 1</p>
+
+<pre><code>.flex-shrink(&lt;number&gt;) 
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .flex-shrink(2);
+}
+
+// Result
+div {
+ -webkit-flex-shrink: 2;
+ flex-shrink: 2;
+}
+</code></pre>
+
+<h3><a name="flex-wrap"></a> &#8226; flex-wrap</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The CSS flex-wrap property specifies whether the children are forced into a single line or if the items can be flowed on multiple lines.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap">MDN</a></strong>, <strong><a href="http://css-tricks.com/almanac/properties/f/flex-wrap/">CSS-Tricks</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: nowrap</p>
+
+<pre><code>.flex-wrap(nowrap | wrap | wrap-reverse) 
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .flex-wrap(wrap-reverse);
+}
+
+// Result
+div {
+ -webkit-flex-wrap: 2;
+ -ms-flex-wrap: 2;
+ flex-wrap: 2;
+}
+</code></pre>
+
+<h3><a name="font-face"></a> &#8226; font-face</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The @font-face CSS at-rule allows authors to specify online fonts to display text on their web pages.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<pre><code>.font-face(@fontname, @fontfile, @fontweight:normal, @fontstyle:normal) 
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .font-face(Hipster, ~'../fonts/hipster', bold, italic);
+}
+
+// Result
+div {
+ font-family: "Hipster";
+ src: url("../fonts/hipster.eot");
+ src: url("../fonts/hipster.eot?#iefix") format("embedded-opentype"), url("../fonts/hipster.woff") format("woff"), url("../fonts/hipster.ttf") format("truetype"), url("../fonts/hipster.svg#Hipster") format("svg");
+ font-weight: bold;
+ font-style: italic;
+}
+</code></pre>
+
+<h3><a name="grayscale"></a> &#8226; grayscale</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Converts the input image to grayscale. The value of ‘amount’ defines the proportion of the conversion. A value of 100% is completely grayscale. A value of 0% leaves the input unchanged. Values between 0% and 100% are linear multipliers on the effect. If the ‘amount’ parameter is missing, a value of 100% is used.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter#grayscale()">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.grayscale(&lt;percentage&gt;) 
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>grayscale</code> adds <code>%</code> automatically. </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .grayscale(50);
+}
+
+// Result
+div {
+ -webkit-filter: grayscale(50%);
+ -moz-filter: grayscale(50%);
+ -ms-filter: grayscale(50%);
+ filter: grayscale(50%);
+}
+</code></pre>
+
+<h3><a name="hue-rotate"></a> &#8226; hue-rotate</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Applies a hue rotation on the input image. The value of ‘angle’ defines the number of degrees around the color circle the input samples will be adjusted. A value of 0deg leaves the input unchanged. If the ‘angle’ parameter is missing, a value of 0deg is used. Maximum value is 360deg.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter#hue-rotate()">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.hue-rotate(&lt;percentage&gt;) 
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>hue-rotate</code> adds <code>deg</code> automatically. </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .hue-rotate(50);
+}
+
+// Result
+div {
+ -webkit-filter: hue-rotate(50deg);
+ -moz-filter: hue-rotate(50deg);
+ -ms-filter: hue-rotate(50deg);
+ filter: hue-rotate(50deg);
+}
+</code></pre>
+
+<h3><a name="hyphens"></a> &#8226; hyphens</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The hyphens CSS property tells the browser how to go about splitting words to improve the layout of text when line-wrapping. </p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: manual</p>
+
+<pre><code>.hyphens(none | manual | auto)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .hyphens(none);
+}
+
+// Result
+div {
+ -webkit-hyphens: none;
+ -moz-hyphens: none;
+ -ms-hyphens: none;
+} 
+</code></pre>
+
+<h3><a name="invert"></a> &#8226; invert</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Inverts the samples in the input image. The value of ‘amount’ defines the proportion of the conversion. A value of 100% is completely inverted. A value of 0% leaves the input unchanged. Values between 0% and 100% are linear multipliers on the effect. If the ‘amount’ parameter is missing, a value of 100% is used.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter#invert()">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.invert(&lt;percentage&gt;) 
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>invert</code> adds <code>%</code> automatically. </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .invert(100);
+}
+
+// Result
+div {
+ -webkit-filter: invert(100%);
+ -moz-filter: invert(100%);
+ -ms-filter: invert(100%);
+ filter: invert(100%);
+}
+</code></pre>
+
+<h3><a name="justify-content"></a> &#8226; justify-content</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The CSS justify-content property defines how a browser distributes available space between and around elements when aligning flex items in the main-axis of the current line. </p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content">MDN</a></strong>, <strong><a href="http://css-tricks.com/almanac/properties/j/justify-content/">CSS-Tricks</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: flex-start</p>
+
+<pre><code>.justify-content(flex-start | flex-end | center | space-between | space-around) 
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .justify-content(flex-start);
+}
+
+// Result
+div {
+ -webkit-box-pack: flex-start;
+ -moz-box-pack: start;
+ -webkit-justify-content: start;
+ -ms-flex-pack: flex-start;
+ justify-content: flex-start;
+}
+</code></pre>
+
+<h3><a name="keyframes"></a> &#8226; keyframes</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The @keyframes CSS at-rule lets authors control the intermediate steps in a CSS animation sequence by establishing keyframes (or waypoints) along the animation sequence that must be reached by certain points during the animation.  </p>
+
+<p>LESS CSS isn't great for complicated mixin like this one, so it's little bit tricky.
+LESS CSS compiler doesn't allow to have properties in the root. It's better to understand the problem on the example.</p>
+
+<pre><code>// There is no selector
+color: red;
+
+SyntaxError: properties must be inside selector blocks, they cannot be in the root. 
+
+div { color: red; } // This is correct
+</code></pre>
+
+<p>Therefore LESS Hat generates <strong>placeholder</strong> selector <code>lesshat-selector { -lh-property: 0; }</code> with unknown property, which browsers ignore and after that, there is actually keyframes syntax.  </p>
+
+<p>And also because of bad architecture of LESS CSS language, keyframes definition has to be on single line.</p>
+
+<p><strong>THIS MIXIN MUST BE INTERPOLATED <code>~''</code></strong></p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/atrules/@keyframes">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<pre><code>.keyframes(~'&lt;keyframes-name&gt;, &lt;keyframes-definition&gt;') 
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>Properties inside <code>&lt;keyframes-definition&gt;</code> are automatically prefixed, if it's needed.<br />
+  Keyframes mixin supports prefix configuration but it's computationally demanding so it is commented out and all prefixes are rendered. Feel free to uncommented that if you need it.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>.keyframes(~'animationName, 0%{ transform: scale(1.5); color: blue; } 100%{ transform: scale(2); color: red }');
+
+// Result
+ lesshat-selector {-lh-property: 0; } 
+ @-webkit-keyframes animationName{ 0%{ -webkit-transform: scale(1.5); color: blue; } 100%{ -webkit-transform: scale(2); color: red }}
+ @-moz-keyframes animationName{ 0%{ -moz-transform: scale(1.5); color: blue; } 100%{ -moz-transform: scale(2); color: red }}
+ @-o-keyframes animationName{ 0%{ -o-transform: scale(1.5); color: blue; } 100%{ -o-transform: scale(2); color: red }}
+ @keyframes animationName{ 0%{ transform: scale(1.5); color: blue; } 100%{ transform: scale(2); color: red };} 
+</code></pre>
+
+<h3><a name="opacity"></a> &#8226; opacity</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The opacity CSS property specifies the transparency of an element, that is, the degree to which the background behind the element is overlaid.  </p>
+
+<p>This is not shorthand method for filter opacity.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/opacity">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 1</p>
+
+<pre><code>.opacity(&lt;number&gt;) 
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>You can enable old filter syntax for IE6, just set <code>@ms_local: true</code>.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .opacity(.5);
+}
+
+// Result
+div {
+ -webkit-opacity: 0.5;
+ -moz-opacity: 0.5;
+ opacity: 0.5;
+}
+</code></pre>
+
+<h3><a name="order"></a> &#8226; order</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The CSS order property specifies the order used to lay out flex items in their flex container.  </p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/order">MDN</a></strong>, <strong><a href="http://css-tricks.com/almanac/properties/o/order/">CSS-Tricks</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.order(&lt;integer&gt;) 
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .order(1);
+}
+
+// Result
+div {
+ -webkit-box-ordinal-group: 1;
+ -moz-box-ordinal-group: 1;
+ -ms-flex-order: 1;
+ -webkit-order: 1;
+ order: 1;
+}
+</code></pre>
+
+<h3><a name="perspective"></a> &#8226; perspective</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The perspective CSS property determines the distance between the z=0 plane and the user in order to give to the 3D-positioned element some perspective.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/perspective">MDN</a></strong>, <strong><a href="http://css-tricks.com/almanac/properties/p/perspective/">CSS-Tricks</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: none</p>
+
+<pre><code>.perspective(none | &lt;length&gt;)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>perspective</code> adds <code>px</code> automatically.  </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .perspective(1000);
+}
+
+// Result
+div {
+ -moz-perspective: 1000px;
+ -webkit-perspective: 1000px;
+ perspective: 1000px;
+}
+</code></pre>
+
+<h3><a name="perspective-origin"></a> &#8226; perspective-origin</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The perspective-origin CSS property determines the position the viewer is looking at. It is used as the vanishing point by the perspective property.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/perspective-origin">MDN</a></strong>, <strong><a href="http://css-tricks.com/almanac/properties/p/perspective-origin/">CSS-Tricks</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 50% 50%</p>
+
+<pre><code>.perspective-origin(&lt;percentage&gt; | &lt;length&gt; | constants | inherit)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>perspective-origin</code> adds <code>%</code> automatically.  </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .perspective-origin(top left);
+}
+
+// Result
+div {
+ -moz-perspective-origin: top left;
+ -webkit-perspective-origin: top left;
+ perspective-origin: top left;
+}
+</code></pre>
+
+<h3><a name="placeholder"></a> &#8226; placeholder</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Placeholder is the short hint displayed in the input field before the user clicked to it.
+Default placeholder text in inputs has a light gray color (so far). </p>
+
+<p>Resources: <strong><a href="http://css-tricks.com/snippets/css/style-placeholder-text/">CSS-Tricks</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<pre><code>.placeholder(&lt;color&gt;, [&lt;element&gt;])
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .placeholder(#666666);
+}
+
+// Result
+div::-webkit-input-placeholder {
+   color: #666666;
+}
+div:-moz-placeholder {
+   color: #666666;
+}
+div::-moz-placeholder {
+   color: #666666;
+}
+div:-ms-input-placeholder {
+   color: #666666;
+}
+
+// In root (outside of selectors)
+.placeholder(#333333);
+
+// Result
+::-webkit-input-placeholder {
+   color: #666666;
+}
+:-moz-placeholder {
+   color: #666666;
+}
+::-moz-placeholder {
+   color: #666666;
+}
+:-ms-input-placeholder {
+   color: #666666;
+}
+
+// In root (outside of selectors)
+.placeholder(#333333, textarea);
+
+// Result
+textarea::-webkit-input-placeholder {
+   color: #666666;
+}
+textarea:-moz-placeholder {
+   color: #666666;
+}
+textarea::-moz-placeholder {
+   color: #666666;
+}
+textarea:-ms-input-placeholder {
+   color: #666666;
+}
+</code></pre>
+
+<h3><a name="rotate"></a> &#8226; rotate</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Rotates the element clockwise around its origin by the specified angle. </p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform#rotate">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.rotate(&lt;angle&gt;)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>rotate</code> adds <code>deg</code> automatically.  </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .rotate(45);
+}
+
+// Result
+div {
+ -webkit-transform: rotate(45deg);
+ -moz-transform: rotate(45deg);
+ -ms-transform: rotate(45deg);
+ -o-transform: rotate(45deg);
+ transform: rotate(45deg);
+}
+</code></pre>
+
+<h3><a name="rotate3d"></a> &#8226; rotate3d</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The rotate3d()CSS function defines a transformation that moves the element around a fixed axe without deforming it.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function#rotate3d()">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0, 0, 0, 0</p>
+
+<pre><code>.rotate3d(&lt;number&gt;, &lt;number&gt;, &lt;number&gt;, &lt;angle&gt;)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit angle unit, <code>rotate3d</code> adds <code>deg</code> automatically.  </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .rotate3d(1, 0, 0, 50);
+}
+
+// Result
+div {
+ -webkit-transform: rotate3d(1, 0, 0, 50deg);
+ -moz-transform: rotate3d(1, 0, 0, 50deg);
+ -ms-transform: rotate3d(1, 0, 0, 50deg);
+ -o-transform: rotate3d(1, 0, 0, 50deg);
+ transform: rotate3d(1, 0, 0, 50deg);
+}
+</code></pre>
+
+<h3><a name="rotateX"></a> &#8226; rotateX</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The rotateX() CSS function defines a transformation that moves the element around the abscissa without deforming it.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform#rotateX">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.rotateX(&lt;angle&gt;)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>rotateX</code> adds <code>deg</code> automatically.  </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .rotateX(45);
+}
+
+// Result
+div {
+ -webkit-transform: rotateX(45deg);
+ -moz-transform: rotateX(45deg);
+ -ms-transform: rotateX(45deg);
+ -o-transform: rotateX(45deg);
+ transform: rotateX(45deg);
+}
+</code></pre>
+
+<h3><a name="rotateY"></a> &#8226; rotateY</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The rotateY() CSS function defines a transformation that moves the element around the ordinate without deforming it.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform#rotateY">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.rotateY(&lt;angle&gt;)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>rotateY</code> adds <code>deg</code> automatically.  </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .rotateY(45);
+}
+
+// Result
+div {
+ -webkit-transform: rotateY(45deg);
+ -moz-transform: rotateY(45deg);
+ -ms-transform: rotateY(45deg);
+ -o-transform: rotateY(45deg);
+ transform: rotateY(45deg);
+}
+</code></pre>
+
+<h3><a name="rotateZ"></a> &#8226; rotateZ</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The rotateZ() CSS function defines a transformation that moves the element around the z-axis without deforming it.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform#rotateZ">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.rotateZ(&lt;angle&gt;)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>rotateZ</code> adds <code>deg</code> automatically.  </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .rotateZ(45);
+}
+
+// Result
+div {
+ -webkit-transform: rotateZ(45deg);
+ -moz-transform: rotateZ(45deg);
+ -ms-transform: rotateZ(45deg);
+ -o-transform: rotateZ(45deg);
+ transform: rotateZ(45deg);
+}
+</code></pre>
+
+<h3><a name="saturate"></a> &#8226; saturate</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Saturates the input image. The value of ‘amount’ defines the proportion of the conversion.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter#saturate()">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 100%</p>
+
+<pre><code>.saturate(&lt;amount&gt;)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>saturate</code> adds <code>%</code> automatically.  </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .saturate(45);
+}
+
+// Result
+div {
+ -webkit-filter: saturate(45deg);
+ -moz-filter: saturate(45deg);
+ -ms-filter: saturate(45deg);
+ filter: saturate(45deg);
+}
+</code></pre>
+
+<h3><a name="scale"></a> &#8226; scale</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Specifies a 2D scaling operation described by [sx, sy]. If sy isn't specified, it is assumed to be equal to sx.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform#scale">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 1</p>
+
+<pre><code>.scale(&lt;sx&gt;[, &lt;sy&gt;]) 
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .scale(2);
+}
+
+// Result
+div {
+ -webkit-transform: scale(2);
+ -moz-transform: scale(2);
+ -ms-transform: scale(2);
+ -o-transform: scale(2);
+ transform: scale(2);
+}
+</code></pre>
+
+<h3><a name="scale3d"></a> &#8226; scale3d</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The scale3d() CSS function modifies the size of an element. Because the amount of scaling is defined by a vector, it can resize different dimensions at different scales.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function#scale3d()">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 1, 1, 1</p>
+
+<pre><code>.scale3d(&lt;sx&gt;, &lt;sy&gt;, &lt;sz&gt;) 
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .scale3d(1.5, .2, 3);
+}
+
+// Result
+div {
+ -webkit-transform: scale3d(1.5, 0.2, 3);
+ -moz-transform: scale3d(1.5, 0.2, 3);
+ -ms-transform: scale3d(1.5, 0.2, 3);
+ -o-transform: scale3d(1.5, 0.2, 3);
+ transform: scale3d(1.5, 0.2, 3);
+}
+</code></pre>
+
+<h3><a name="scaleX"></a> &#8226; scaleX</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Specifies a scale operation using the vector [sx, 1].</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform#scaleX">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 1</p>
+
+<pre><code>.scaleX(&lt;sx&gt;) 
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .scaleX(1.5);
+}
+
+// Result
+div {
+ -webkit-transform: scaleX(1.5);
+ -moz-transform: scaleX(1.5);
+ -ms-transform: scaleX(1.5);
+ -o-transform: scaleX(1.5);
+ transform: scaleX(1.5);
+}
+</code></pre>
+
+<h3><a name="scaleY"></a> &#8226; scaleY</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Specifies a scale operation using the vector [1, sy].</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform#scaleY">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 1</p>
+
+<pre><code>.scaleY(&lt;sy&gt;) 
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .scaleY(1.5);
+}
+
+// Result
+div {
+ -webkit-transform: scaleY(1.5);
+ -moz-transform: scaleY(1.5);
+ -ms-transform: scaleY(1.5);
+ -o-transform: scaleY(1.5);
+ transform: scaleY(1.5);
+}
+</code></pre>
+
+<h3><a name="scaleZ"></a> &#8226; scaleZ</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The scaleZ() CSS function modifies the z-coordinate of each element point by a constant facto, except if this scale factor is 1, in which case the function is the identity transform.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function#scaleZ()">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 1</p>
+
+<pre><code>.scaleZ(&lt;sz&gt;) 
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .scaleZ(1.5);
+}
+
+// Result
+div {
+ -webkit-transform: scaleZ(1.5);
+ -moz-transform: scaleZ(1.5);
+ -ms-transform: scaleZ(1.5);
+ -o-transform: scaleZ(1.5);
+ transform: scaleZ(1.5);
+}
+</code></pre>
+
+<h3><a name="selection"></a> &#8226; selection</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The ::selection CSS pseudo-element applies rules to the portion of a document that has been highlighted.
+LESS CSS compiler doesn't allow to have properties in the root. It's better to understand the problem on the example.</p>
+
+<pre><code>// There is no selector
+color: red;
+
+SyntaxError: properties must be inside selector blocks, they cannot be in the root. 
+
+div { color: red; } // This is correct
+</code></pre>
+
+<p>Therefore LESS Hat generates <strong>placeholder</strong> selector <code>lesshat-selector { -lh-property: 0; }</code> with unknown property, which browsers ignore and after that, there is actually selection syntax.    </p>
+
+<p><strong>THIS MIXIN MUST BE INTERPOLATED <code>~''</code></strong>  </p>
+
+<p>Use this mixin outside of CSS selectors</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::selection">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<pre><code>.selection(&lt;CSS properties&gt;[, &lt;element&gt;]) 
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>.selection(~'color: blue; background: red');
+
+// Result
+lesshat-selector {-lh-property: 0;} 
+::selection{color: blue; background: red}
+::-moz-selection{color: blue; background: red;}
+</code></pre>
+
+<h3><a name="sepia"></a> &#8226; sepia</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Converts the input image to Instagram like effect.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter#sepia()">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<pre><code>.sepia(&lt;percentage&gt;) 
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>sepia</code> adds <code>%</code> automatically.  </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .sepia(50);
+}
+
+// Result
+div {
+ -webkit-filter: sepia(50%);
+ -moz-filter: sepia(50%);
+ filter: sepia(50%);
+}
+</code></pre>
+
+<h3><a name="size"></a> &#8226; size</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>This is helper mixin for fast dimensions setup.</p>
+
+<p><strong>Syntax:</strong></p>
+
+<pre><code>.size(&lt;width&gt;, [&lt;height&gt;]) 
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>When you call mixin with only one argument, second will be the same.
+  Also you can omit units and <code>size</code> adds it automatically.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .size(50);
+}
+
+// Result
+div {
+ width: 50px;
+ height: 50px;
+}
+</code></pre>
+
+<h3><a name="skew"></a> &#8226; skew</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Skews the element along the X and Y axes by the specified angles. If ay isn't provided, no skew is performed on the Y axis.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform#skew">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.skew(&lt;ax&gt;[, &lt;ay&gt;]) 
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>skew</code> adds <code>%</code> automatically. </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .skew(20, 30);
+}
+
+// Result
+div {
+ -webkit-transform: skew(20deg, 30deg);
+ -moz-transform: skew(20deg, 30deg);
+ -ms-transform: skew(20deg, 30deg);
+ -o-transform: skew(20deg, 30deg);
+ transform: skew(20deg, 30deg);
+}
+</code></pre>
+
+<h3><a name="skewX"></a> &#8226; skewX</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Skews the element along the X axis by the given angle.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform#skewX">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.skewX(&lt;angle&gt;) 
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>skewX</code> adds <code>%</code> automatically. </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .skewX(20);
+}
+
+// Result
+div {
+ -webkit-transform: skewX(20deg);
+ -moz-transform: skewX(20deg);
+ -ms-transform: skewX(20deg);
+ -o-transform: skewX(20deg);
+ transform: skewX(20deg);
+}
+</code></pre>
+
+<h3><a name="skewY"></a> &#8226; skewY</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Skews the element along the Y axis by the given angle.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform#skewY">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.skewY(&lt;angle&gt;) 
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>skewY</code> adds <code>%</code> automatically. </p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .skewY(20);
+}
+
+// Result
+div {
+ -webkit-transform: skewY(20deg);
+ -moz-transform: skewY(20deg);
+ -ms-transform: skewY(20deg);
+ -o-transform: skewY(20deg);
+ transform: skewY(20deg);
+}
+</code></pre>
+
+<h3><a name="transform"></a> &#8226; transform</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The CSS transform property lets you modify the coordinate space of the CSS visual formatting model. </p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/transform">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: none</p>
+
+<pre><code>.transform(none | &lt;transform-function&gt;+) 
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>transform</code> can adds correct unit automatically.</p>
+
+<pre><code> translate: 'px',
+ rotate: 'deg',
+ rotate3d: 'deg',
+ skew: 'deg'
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .transform(scale(.5) translate(10, 20));
+}
+
+// Result
+div {
+ -webkit-transform: scale(.5) translate(10, 20);
+ -moz-transform: scale(.5) translate(10, 20);
+ -ms-transform: scale(.5) translate(10, 20);
+ -o-transform: scale(.5) translate(10, 20);
+ transform: scale(.5) translate(10, 20);
+}
+</code></pre>
+
+<h3><a name="transform-origin"></a> &#8226; transform-origin</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The transform-origin CSS property lets you modify the origin for transformations of an element.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/transform-origin">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 50% 50% 0</p>
+
+<pre><code>.transform-origin(&lt;percentage&gt; | &lt;length&gt; | &lt;named-position&gt;) 
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>transform-origin</code> adds <code>%</code> automatically.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .transform-origin(50 50);
+}
+
+// Result
+div {
+ -webkit-transform-origin: 50% 50%;
+ -moz-transform-origin: 50% 50%;
+ -ms-transform-origin: 50% 50%;
+ -o-transform-origin: 50% 50%;
+ transform-origin: 50% 50%;
+}
+</code></pre>
+
+<h3><a name="transform-style"></a> &#8226; transform-style</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The transform-style CSS property determines if the children of the element are positioned in the 3D-space or are flattened in the plane of the element.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/transform-style">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: flat</p>
+
+<pre><code>.transform-style(flat | preserve-3d) 
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .transform-style(preserve-3d);
+}
+
+// Result
+div {
+ -webkit-transform-style: preserve-3d;
+ -moz-transform-style: preserve-3d;
+ -ms-transform-style: preserve-3d;
+ -o-transform-style: preserve-3d;
+ transform-style: preserve-3d;
+}
+</code></pre>
+
+<h3><a name="transition"></a> &#8226; transition</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The CSS transition property is a shorthand property for transition-property, transition-duration, transition-timing-function, and transition-delay. It allows to define the transition between two states of an element.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/transition">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: all 0 ease 0</p>
+
+<pre><code>.transition([ none | &lt;single-transition-property&gt; ] | &lt;time&gt; | &lt;timing-function&gt; | &lt;time&gt;)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units after time argument, <code>transition</code> is trying to be smart and add properly value.</p>
+
+<pre><code>  if (time &gt; 10) {
+      time += 'ms';
+    } else {
+      time += 's';
+    }
+</code></pre>
+
+<p>And also properties inside <code>transition</code> definition are automatically prefixed, if it is needed.<br />
+  <strong>W3C property value is appending all prefixed values.</strong><br />
+  Why? Some browsers support W3C unprefixed properties, but values must be sometimes prefixed.
+  Let's consider this example:</p>
+
+<pre><code>div {
+-webkit-transition: -webkit-filter .3s ease;
+-moz-transition: -moz-filter .3s ease;
+-o-transition: filter .3s ease;
+
+// There is a problem! Webkit needs -webkit-filter property
+transition: filter .3s ease;
+}
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .transition(box-shadow 0.2s linear, color .4s .2s ease);
+}
+
+// Result
+div {
+ -webkit-transition: -webkit-box-shadow 0.2s linear, color 0.4s 0.2s ease;
+ -moz-transition: -moz-box-shadow 0.2s linear, color 0.4s 0.2s ease;
+ -o-transition: box-shadow 0.2s linear, color 0.4s 0.2s ease;
+ transition: box-shadow 0.2s linear, color 0.4s 0.2s ease;
+}
+</code></pre>
+
+<h3><a name="transition-delay"></a> &#8226; transition-delay</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The transition-delay CSS property specifies the amount of time to wait between a change being requested to a property that is to be transitioned and the start of the transition effect.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/transition-delay">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.transition-delay(&lt;time&gt;)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units after time argument, <code>transition-delay</code> is trying to be smart and add properly value.</p>
+
+<pre><code>  if (time &gt; 10) {
+      time += 'ms';
+    } else {
+      time += 's';
+    }
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .transition-delay(200);
+}
+
+// Result
+div {
+ -webkit-transition-delay: 200ms;
+ -moz-transition-delay: 200ms;
+ -o-transition-delay: 200ms;
+ transition-delay: 200ms;
+}
+</code></pre>
+
+<h3><a name="transition-duration"></a> &#8226; transition-duration</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The transition-duration CSS property specifies the number of seconds or milliseconds a transition animation should take to complete. By default, the value is 0s, meaning that no animation will occur.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/transition-duration">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.transition-duration(&lt;time&gt;)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units after time argument, <code>transition-duration</code> is trying to be smart and add properly value.</p>
+
+<pre><code>  if (time &gt; 10) {
+      time += 'ms';
+    } else {
+      time += 's';
+    }
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .transition-duration(6);
+}
+
+// Result
+div {
+ -webkit-transition-duration: 6s;
+ -moz-transition-duration: 6s;
+ -o-transition-duration: 6s;
+ transition-duration: 6s;
+}
+</code></pre>
+
+<h3><a name="transition-property"></a> &#8226; transition-property</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The transition-property CSS property is used to specify the names of CSS properties to which a transition effect should be applied.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/transition-property">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: all</p>
+
+<pre><code>.transition-property(&lt;propertyname&gt; | all | none)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>And also properties inside <code>transition-property</code> definition are automatically prefixed, if it is needed.<br />
+  <strong>W3C property value is appending all prefixed values.</strong><br />
+  Why? Some browsers support W3C unprefixed properties, but values must be sometimes prefixed.
+  Let's consider this example:</p>
+
+<pre><code>div {
+-webkit-transition: -webkit-filter .3s ease;
+-moz-transition: -moz-filter .3s ease;
+-o-transition: filter .3s ease;
+
+// There is a problem! Webkit needs -webkit-filter property
+transition: filter .3s ease;
+}
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .transition-property(transform);
+}
+
+// Result
+div {
+ -webkit-transition-property: -webkit-transform;
+ -moz-transition-property: -moz-transform;
+ -o-transition-property: -o-transform;
+ transition-property: -webkit-transform,-moz-transform,-o-transform,transform;
+}
+</code></pre>
+
+<h3><a name="transition-timing-function"></a> &#8226; transition-timing-function</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The CSS transition-timing-function property is used to describe how the intermediate values of the CSS properties being affected by a transition effect are calculated. This in essence lets you establish an acceleration curve, so that the speed of the transition can vary over its duration.</p>
+
+<p>Resources: <strong><a href="http://docs.webplatform.org/wiki/css/properties/transition-timing-function">WebPlatform</a></strong>, <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: ease</p>
+
+<pre><code>.transition-timing-function(&lt;timing-function&gt;, ...)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .transition-timing-function(cubic-bezier(0,0,1,1), ease);
+}
+
+// Result
+div {
+ -webkit-transition-timing-function: cubic-bezier(0, 0, 1, 1), ease;
+ -moz-transition-timing-function: cubic-bezier(0, 0, 1, 1), ease;
+ -o-transition-timing-function: cubic-bezier(0, 0, 1, 1), ease;
+ transition-timing-function: cubic-bezier(0, 0, 1, 1), ease;
+}
+</code></pre>
+
+<h3><a name="translate"></a> &#8226; translate</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Specifies a 2D translation by the vector [tx, ty]. If ty isn't specified, its value is assumed to be zero.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform#translate">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.translate(&lt;tx&gt;[, &lt;ty&gt;])
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>translate</code> adds <code>px</code> automatically.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .translate(200);
+}
+
+// Result
+div {
+ -webkit-transform: translate(200px);
+ -moz-transform: translate(200px);
+ -ms-transform: translate(200px);
+ -o-transform: translate(200px);
+ transform: translate(200px);
+}
+</code></pre>
+
+<h3><a name="translate3d"></a> &#8226; translate3d</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>The translate3d() CSS function moves the position of the element in the 3D space.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function#translate3d()">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.translate3d(&lt;tx&gt;, &lt;ty&gt;, &lt;tz&gt;)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>translate3d</code> adds <code>px</code> automatically.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .translate3d(20, 30, 10);
+}
+
+// Result
+div {
+ -webkit-transform: translate3d(20px, 30px, 10px);
+ -moz-transform: translate3d(20px, 30px, 10px);
+ -ms-transform: translate3d(20px, 30px, 10px);
+ -o-transform: translate3d(20px, 30px, 10px);
+ transform: translate3d(20px, 30px, 10px);
+}
+</code></pre>
+
+<h3><a name="translateX"></a> &#8226; translateX</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Translates the element by the given amount along the X axis.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform#translateX">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.translateX(&lt;tx&gt;)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>translateX</code> adds <code>px</code> automatically.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .translateX(20);
+}
+
+// Result
+div {
+ -webkit-transform: translateX(20px);
+ -moz-transform: translateX(20px);
+ -ms-transform: translateX(20px);
+ -o-transform: translateX(20px);
+ transform: translateX(20px);
+}
+</code></pre>
+
+<h3><a name="translateY"></a> &#8226; translateY</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Translates the element by the given amount along the Y axis.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform#translateY">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.translateY(&lt;ty&gt;)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>translateY</code> adds <code>px</code> automatically.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .translateY(20);
+}
+
+// Result
+div {
+ -webkit-transform: translateY(20px);
+ -moz-transform: translateY(20px);
+ -ms-transform: translateY(20px);
+ -o-transform: translateY(20px);
+ transform: translateY(20px);
+}
+</code></pre>
+
+<h3><a name="translateZ"></a> &#8226; translateZ</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Translates the element by the given amount along the Z axis.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform#translateZ">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: 0</p>
+
+<pre><code>.translateZ(&lt;ty&gt;)
+</code></pre>
+
+<p><strong>Tips and tricks:</strong></p>
+
+<p>If you omit units, <code>translateZ</code> adds <code>px</code> automatically.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .translateZ(20);
+}
+
+// Result
+div {
+ -webkit-transform: translateZ(20px);
+ -moz-transform: translateZ(20px);
+ -ms-transform: translateZ(20px);
+ -o-transform: translateZ(20px);
+ transform: translateZ(20px);
+}
+</code></pre>
+
+<h3><a name="user-select"></a> &#8226; user-select</h3>
+
+<p><strong>Summary:</strong></p>
+
+<p>Controls the appearance (only) of selection.</p>
+
+<p>Resources: <strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/user-select">MDN</a></strong></p>
+
+<p><strong>Syntax:</strong></p>
+
+<p>Default value: auto</p>
+
+<pre><code>.user-select(none | text | all | element)
+</code></pre>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>div {
+ .user-select(none);
+}
+
+// Result
+div {
+ -webkit-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+</code></pre>
+
+    </div>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+{
+    "name": "lucien144/lesshat-dash-dockset",
+    "description": "LessHat dockset for Dash.app",
+    "require": {
+        "michelf/php-markdown": "1.4.1",
+        "dibi/dibi": "2.2.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Blasko",
+            "email": "honza@lucien144.net"
+        }
+    ]
+}
